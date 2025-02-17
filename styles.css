@@ -3,24 +3,18 @@ body {
     padding: 0;
     background-color: #7f7c7c;
 }
-
 .container {
     margin-left: 35%;
     margin-right: 35%;
     margin-top: 3%;
 }
-
 .postGeneral{
     background-color: aliceblue;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 3px;
 }
-
 .postHeader{
-    height: 7%;
     font-size: xx-small;
     display: flex;
     flex-direction: row;
@@ -35,15 +29,7 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
-.postImage{
-    width: 100%;
-    height: 60%;
-}
-
 .postFooterIcons{
-    width: auto;
-    height: 7%;
     display: flex;
     align-items: center;
     gap: 2%;
@@ -53,26 +39,23 @@ h1 {
     margin-bottom: 2%;
     font-size: medium;
 }
-
 .postFooterText{
     padding-top: 2%;
 }
 img{
     width: 100%;
-    height: 100%;
     object-fit:cover;
 }
-
 .iconoHeader1{
-    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: medium;
 }
-
 .iconoHeader2{
-    width: 10%;
+    margin-right: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
